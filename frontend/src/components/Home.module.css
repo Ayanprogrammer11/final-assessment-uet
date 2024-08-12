@@ -1,0 +1,32 @@
+.homeContainer {
+  padding: 2rem 0;
+}
+
+.postGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.postCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.postCard:hover {
+  transform: translateY(-5px);
+}
+
+.readMoreLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.readMoreLink:hover {
+  text-decoration: underline;
+}
